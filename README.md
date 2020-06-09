@@ -4,6 +4,6 @@ grep "" -r --include=\*py .
 ### Developer Tools
 toggle Ctrl Shift J
 ### git
-git stash
-git stash list
+git stash\
+git stash list\
 git stash pop
