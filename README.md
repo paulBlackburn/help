@@ -6,4 +6,8 @@ toggle Ctrl Shift J
 ### git
 git stash\
 git stash list\
-git stash pop
+git stash pop\
+Stash some files\
+git add [file you don't want to stash]\
+git stash --keep-index\
+git reset
