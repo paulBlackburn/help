@@ -10,4 +10,5 @@ git stash pop\
 Stash some files\
 git add [file you don't want to stash]\
 git stash --keep-index\
-git reset
+git reset\
+git checkout -b branch --track branch
