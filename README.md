@@ -13,4 +13,5 @@ git stash --keep-index\
 git reset\
 git checkout -b branch --track origin/branch\
 ### venv
-env\scripts\activate.bat
+env\scripts\activate.bat\
+deactivate
