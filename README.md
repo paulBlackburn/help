@@ -11,7 +11,8 @@ Stash some files\
 git add [file you don't want to stash]\
 git stash --keep-index\
 git reset\
-git checkout -b branch --track origin/branch
+git checkout -b branch --track origin/branch\
+git reset --soft HEAD~
 ### venv
 env\scripts\activate.bat\
 deactivate
