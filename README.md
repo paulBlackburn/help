@@ -1,8 +1,8 @@
 # All the commands I use in my daily workflow to be productive as possible as a Software Engineer
 ## grep
-grep --exclude-dir=env "" -r --include=\*py .\
+grep --exclude-dir=env "" -r --include=\*py .
 ## Chrome Developer Tools
-toggle Ctrl Shift j\
+toggle Ctrl Shift j
 ## git
 #### Stash
 git stash\
