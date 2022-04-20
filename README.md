@@ -11,7 +11,8 @@ git stash pop\
 git add [file you don't want to stash]\
 git stash --keep-index
 #### Undo commit
-git reset --soft HEAD~ (undo the last commit from local repo, but the file changes will stay in your working tree)
+git reset --soft HEAD~ (undo the last commit from local repo, but the file changes will stay in your working tree)\
+git push -f (if the commit was pushed to remote repo)
 #### Branches
 I believe feature branches are a great tool to limit scope creep\
 When a feature branch is merged the feature branch can be deleted\
