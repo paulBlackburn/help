@@ -19,6 +19,10 @@ When a feature branch is merged the feature branch can be deleted\
 git checkout -b [branch_name] --track origin/[branch_name]\
 git branch -d [branch_name]\
 git remote update origin --prune
+#### Rebase
+git checkout feature-branch
+git pull origin main
+git rebase main
 ## venv
 env\scripts\activate.bat\
 deactivate
