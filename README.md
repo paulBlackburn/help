@@ -21,9 +21,9 @@ git checkout -b [branch_name] --track origin/[branch_name]\
 git branch -d [branch_name]\
 git remote update origin --prune\
 To reuse the same branch\
-git pull origin <branch-you-want-to-track>
+git pull origin [branch_name]
 #### PRs
-git merge --no-commit <branch>\
+git merge --no-commit [branch_name]\
 git merge --abort
 #### Rebase
 git checkout feature-branch
